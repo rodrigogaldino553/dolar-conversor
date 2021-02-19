@@ -1,0 +1,98 @@
+* {
+    --primary: #00CD74;
+    --secondary: #EAD000;
+}
+
+body {
+    background-color: var(--primary);
+    z-index: -1;
+}
+
+span {
+    position: absolute;
+    width: 100%;
+    height: 39%;
+    margin: -15px -20px 0 -8px;
+    z-index: 1;
+    background: white;
+    border-radius: 0 0 50px 0;
+}
+
+.middle{
+    position: absolute;
+    width: 100%;
+    height: 39%;
+    top: 40%;
+    margin: -15px -20px 0 -10px;
+    z-index: 1;
+    background-image: linear-gradient(to right , white, var(--primary));
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 22) 0px 2px 4px 0;
+    margin: -15px -20px 0 -10px;
+    background: white;
+    z-index: 100;
+}
+
+nav h2 {
+    font-family: 'Avenir Next';
+    color: var(--secondary);
+    margin-left: 50px;
+}
+
+main {
+    width: 100%;
+    padding: 0px;
+    margin: -15px -20px 0 -10px;
+    background: var(--primary);
+    position: absolute;
+    top: 40%;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 50px 0 0 0 ;
+}
+
+main .container {
+    margin-top: 100px;
+}
+
+main .container h4 {
+    /* Your money: R$: */
+    font-family: 'Avenir Next';
+    font-weight: 300;
+    font-size: 18px;
+    color: #F3ECEC;
+    line-height: 26px;
+    margin-bottom: 0px;
+}
+
+main .container input {
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    border-radius: 8px;
+    height: 18px;
+    width: 76px;
+    font-size: 18px;
+    padding: 10px;
+    outline: none;
+    transition: 400ms;
+}
+
+main .container input:hover{
+    
+}
+
+main .container input::after{
+    
+}
+

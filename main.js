@@ -1,0 +1,1 @@
+const url = 'https://economia.awesomeapi.com.br/all/{code}'
